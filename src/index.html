@@ -7,12 +7,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
- <nav>
-     <div >
-         <img src="images/logo.svg" alt="" srcset="">
+ <nav class="relative">
+     <div class="bg-lightDark pt-8 md:px-[97px] px-5 flex justify-between items-center" >
+         <img class="md:h-auto h-9" src="images/logo.svg" alt="" srcset="">
+          <div class="bg-ShadeWhite z-[200] w-9 h-9 rounded-full flex flex-col justify-center items-center space-y-0.5" id="toggle-btn">
+               <div class="h-1 w-4 mr-3 bg-lowDark"></div>
+               <div class="h-1 w-4 ml-2 bg-lowDark"></div>
+          </div>
+     </div>
+
+     <!--Menu Link-->
+     <div class="menu-container links fixed top-0 right-0 bg-ShadeWhite p-5 h-screen w-[100%] transform translate-x-[100%] md:w-2/4 flex flex-col space-y-1 justify-center " id="nav-link">
+        <ul class=" flex flex-col space-y-1 ">
+             <p class="font-Poppins text-lightDark text-base mb-2 font-bold">Menu</p>
+            <li><a class="font-Tangerine text-5xl" href="#">Ingredients</a></li>
+            <li><a class="font-Tangerine text-5xl" href="#">Products</a></li>
+            <li><a class="font-Tangerine text-5xl" href="#">Blog</a></li>
+            <li><a class="font-Tangerine text-5xl" href="#">Contact</a></li>
+        </ul>
      </div>
  </nav>
+
+ <header class="bg-lightDark md:px-[97px] px-7  pt-20">
+     <div class="flex flex-col md:flex-row  justify-between items-center  ">
+       <div class="text-container space-y-2">
+           <h1 class="font-Tangerine md:text-7xl text-3xl text-center md:text-left  max-w-xs md:max-w-2xl mx-auto md:m-0  text-ShadeWhite">
+            Beautiful natural  skin for life
+           </h1>
+           <p class="font-Poppins text-base text-ShadeWhite text-center md:text-left md:max-w-md">Gianni Naturals is a one-stop shop to help you achieve the skin of your dreams </p>
+           <div class="w-[97px] h-[40px] bg-ShadeWhite rounded-full grid place-items-center ">
+               <a href="#" class="font-Poppins font-bold text-sm">Shop Now</a>
+           </div>
+       </div>
+       <div>
+           <img class="h-96 md:h-auto" src="images/black soap header.png" alt="">
+       </div>
+     </div>
+ </header>
+ <script src="index.js"></script>
 </body>
 </html>

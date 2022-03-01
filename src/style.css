@@ -2,3 +2,13 @@
     font-family: Tangerine;
     src: url(/Tangerine/Tangerine.otf);
 }
+
+
+#nav-link{
+  transition: 1s ease;
+    
+}
+
+.open{
+    transform: translateX(0%);
+}

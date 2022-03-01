@@ -8,7 +8,8 @@ module.exports = {
         "lowDark":"#282939",
       },
       fontFamily:{
-        "Tangerine": "Tangerine"
+        "Tangerine": "Tangerine",
+        "Poppins": "Poppins"
       }
     },
   },
