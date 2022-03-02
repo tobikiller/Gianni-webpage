@@ -5,6 +5,20 @@
 
 @import url('http://fonts.cdnfonts.com/css/the-historical-marliana');
 @import url('http://fonts.cdnfonts.com/css/megistica');
+@font-face {
+  font-family: 'THE HISTORICAL MARLIANA';
+  font-style: normal;
+  font-weight: 400;
+  src: local('THE HISTORICAL MARLIANA'), url('https://fonts.cdnfonts.com/s/75869/TheHistoricalMarliana-rgeB8.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'THE HISTORICAL MARLIANA';
+  font-style: normal;
+  font-weight: 400;
+  src: local('THE HISTORICAL MARLIANA'), url('https://fonts.cdnfonts.com/s/75869/TheHistoricalMarliana-rgeB8.woff') format('woff');
+}
+
 
 #nav-link{
   transition: 1s cubic-bezier(1, -0.03, 0.32, 0.97);;
