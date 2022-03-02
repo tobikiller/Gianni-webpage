@@ -3,9 +3,11 @@
     src: url(Tangerine/Tangerine.otf);
 }
 
+@import url('http://fonts.cdnfonts.com/css/the-historical-marliana');
+@import url('http://fonts.cdnfonts.com/css/megistica');
 
 #nav-link{
-  transition: 1s ease;
+  transition: 1s cubic-bezier(1, -0.03, 0.32, 0.97);;
     
 }
 

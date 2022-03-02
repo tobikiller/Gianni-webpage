@@ -9,7 +9,11 @@ module.exports = {
       },
       fontFamily:{
         "Tangerine": "Tangerine",
-        "Poppins": "Poppins"
+        "Poppins": "Poppins",
+        "PlayFair": "Playfair Display",
+        "Rohza": "Rozha One",
+        "TheHistorical": "THE HISTORICAL MARLIANA",
+        "Megistica": "Megistica",
       }
     },
   },

@@ -5,6 +5,5 @@ const navLink = document.getElementById("nav-link")
 
 toggleBtn.addEventListener("click", function() {
     navLink.classList.toggle("open")
-    window.classList.toggle('open')
-    console.log(navLink);
+
 })
